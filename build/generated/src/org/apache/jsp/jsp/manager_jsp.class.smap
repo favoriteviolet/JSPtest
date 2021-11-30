@@ -1,0 +1,14 @@
+SMAP
+manager_jsp.java
+JSP
+*S JSP
+*F
++ 0 manager.jsp
+jsp/manager.jsp
++ 1 bottom.jspf
+jsp/../WEB-INF/jspf/bottom.jspf
+*L
+5,33:49
+1#1,7:82
+37#0,4:88
+*E

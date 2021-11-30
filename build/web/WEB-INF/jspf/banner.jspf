@@ -1,0 +1,9 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page import="cn.po.User"%>
+<%@ page pageEncoding="UTF-8" %>
+<div id="banner">
+
+    <span id="flush"><a href="">刷新页面</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">关闭系统</a></span>
+    <span id="user">当前登录用户：<%=((User) session.getAttribute("user")).getName()%></span>
+
+</div>

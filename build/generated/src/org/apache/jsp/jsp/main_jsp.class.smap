@@ -1,0 +1,24 @@
+SMAP
+main_jsp.java
+JSP
+*S JSP
+*F
++ 0 main.jsp
+jsp/main.jsp
++ 1 banner.jspf
+jsp/../WEB-INF/jspf/banner.jspf
++ 2 nav.jspf
+jsp/../WEB-INF/jspf/nav.jspf
++ 3 bottom.jspf
+jsp/../WEB-INF/jspf/bottom.jspf
+*L
+5,15:52
+1#1,6:67
+7:73,3
+8,3:76
+19#0,2:78
+1#2,44:80
+20#0,3:123
+1#3,7:126
+22#0,5:132
+*E

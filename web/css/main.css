@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2021-10-15, 15:04:13
+    Author     : User
+*/
+#main{
+    width: 778px;
+    margin: auto;
+}
+#banner{
+    height: 118px;
+    background-image: url(../Images/top_bg.gif);
+    background-repeat: no-repeat;
+}
+#flush{
+    font-size: 12px;
+    color:#6A3E03;
+    float:right;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+#flush a{
+    color:#6A3E03;
+}
+#flush a:hover{
+    color:#FF6600;
+}
+
+#user{
+    font-size: 5px;
+    float:right;
+    position: relative;
+    left: 130px;
+    top:100px
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blanchedalmond;
+}
+#nav{
+    height: 36px;
+    background-color: #DFA40C;
+    margin: auto;
+}
+#menu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 36px;
+    background-color: #B0690B;
+    margin-left: 240px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.menuitem{
+    float: right;
+    list-style-type: none;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.menuitem a{
+    color: white;
+}
+.submenu{
+    position: absolute;
+    padding-left: 0px;
+    z-index: 100;
+    border: 1px #FF6600 solid;
+
+}
+
+.subitem{
+    display: none;
+}
+.submenuitem{
+    list-style-type: none;
+    color: gray;
+    padding:3px 10px;
+    background-image: url("../Images/item_out.gif");
+}
+.submenuitem a{
+    color: #808080;
+}
+
+.menuitem:hover .subitem{
+    display: block;
+}
+.menuitem a:hover{
+    color:#FF6600;
+}
+
+.submenuitem:hover{
+    background-image: url("../Images/item_over.gif");
+}
+.submenuitem a:hover{
+    color:#FF6600;
+}
+.current{
+    display: block;
+}
+#bottom{
+    height: 75px;
+    background-image: url("../Images/copyright_t.gif");
+    background-repeat: repeat-x;
+    padding-top: 20px;
+    text-align: center;
+    color: gray;
+    font-size: 9px;
+}
+#content{
+    height: 520px;
+    border: solid antiquewhite 1px;
+    margin-top: 5px;
+}
